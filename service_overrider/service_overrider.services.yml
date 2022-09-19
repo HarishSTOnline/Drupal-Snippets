@@ -1,0 +1,7 @@
+services:
+  # Overriding FB Instant Articles RSS Feed Normalizer
+  serializer.fb_instant_articles.fbia_rss.content_entity:
+    class: Drupal\service_overrider\Normalizer\Test
+    arguments: ['@config.factory']
+    tags:
+      - { name: normalizer, priority: 10 }

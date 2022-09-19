@@ -1,0 +1,5 @@
+name:  Service Overrider
+type:  module
+description:  'Testing Service Overriding in Drupal 8 and up'
+package:  Development
+core_version_requirement: ^8.8 || ^9
