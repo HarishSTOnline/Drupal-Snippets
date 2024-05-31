@@ -21,3 +21,8 @@ Stage all your changes and run the command below:
 git diff --cached  > patch_name.patch
 ```
 
+## Get diff between 2 files
+```
+git diff --no-index <file_a> <file_b> > diff.patch
+```
+
